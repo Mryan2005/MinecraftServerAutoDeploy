@@ -1,1 +1,3 @@
-_all_ = ['subprocess', '']
+_all_ = ['subprocess']
+
+from main import *
