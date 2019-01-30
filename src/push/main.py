@@ -1,3 +1,4 @@
 import subprocess
-child = subprocess.Popen(r'H:\MinecraftServerAutoDeploy\src\push\updat.sh',shell=True)
+sh = r'.\src\push\updat.sh'
+child = subprocess.Popen(sh,shell=True)
 child.wait()
