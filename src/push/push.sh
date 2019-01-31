@@ -1,7 +1,7 @@
 #!/bin/bash
-source ./setting.config
-server_name=$server_name
-server_version=$server_version
+server_name=
+# 服务器名
+# 服务器文件会放在root文件夹
 cur_dateTime="`date +%Y-%m-%d,%H:%m:%s`"
 cd /root/${server_name}
 git add .
