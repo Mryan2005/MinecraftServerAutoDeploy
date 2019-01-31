@@ -1,3 +1,1 @@
-__all__ = ['subprocess']
-
-from main import *
+from src.pull import pull
